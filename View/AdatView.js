@@ -1,6 +1,6 @@
 class AdatView {
     #lista = []
-    constructor() {
+    constructor(lista, szuloElem) {
         this.#lista = lista
         console.log(this.#lista)
     }

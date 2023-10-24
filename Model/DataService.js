@@ -3,9 +3,10 @@ class DataService {
 
     }
 
-    getData(apiVegpont) {
-        axios.get(apiVegpont, callback, hibaCallback)
+    getData(apiVegpont, callback, hibaCallback) {
+        axios.get(apiVegpont)
             .then(function (response) {
+                //console.log(callback)
                 // handle success
                 /**
                 console.log("Válasz objektum", response);
