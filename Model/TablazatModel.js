@@ -1,6 +1,13 @@
-class TablazatModel{
-    constructor(){
+import { adatleiras } from "./adatok.js";
 
+class TablazatModel{
+    #leiro
+    constructor() {
+      this.#leiro = adatleiras
+    }
+
+    getLeiro(){
+        return this.#leiro
     }
 }
 
